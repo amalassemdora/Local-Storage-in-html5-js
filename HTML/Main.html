@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <title> </title>
+    <!-- link style sheet -->
+    <link href="../Style/bootstrap.css">
+    <link rel="stylesheet" href="../Style/Style.css">
+
+</head>
+
+<body>
+    <h2>Information</h2>
+    <form>
+        <div class="container">
+            <div class="row row1">
+                <span class="col-3">ID : </span>
+                <input class="col-3" id="id" type="number" placeholder="Enter your id">
+                <span class="col-3">Full Name : </span>
+                <input class="col-3" id="name" type="text" placeholder="Enter your full name"><br><br>
+                <span class="col-3">Email : </span>
+                <input class="col-3" id="email" type="email" placeholder="Enter your email">
+                <span class="col-3">Telephone : </span>
+                <input class="col-3" id="tel" type="tel" placeholder="Enter your telephone"><br><br>
+                <!-- title="Telephone should be like 0000-000-0000" pattern="01[1-2,5]{1}[0-9]{9}"" -->
+                <div class="age-row">
+                    <span class="age-span"> Age : </span>
+                    <input class="col-3" id="age" type="number" max="45" title="Please, select value equale or less than 45" name="" placeholder="Enter your age"><br>
+                </div>
+            </div>
+        </div>
+        <input id="add" type="button" value="Add">
+        <input id="reset" type="reset" value="Reset">
+        <input id="display" type="button" value="Display">
+        <input type="button" value="Clear Display" id="Clear">
+        <input type="button" value="Remove Storage" id="Remove">
+        </div>
+    </form>
+    <span id="noData"></span>
+    </div>
+    <div class="divTable">
+
+        <table id="DisplayTable">
+
+        </table>
+    </div>
+    </form>
+
+    <!-- link script -->
+    <script src="../Script/bootstrap.bundle.js"></script>
+    <script src="../Script/Script.js"></script>
+
+</body>
+
+</html>

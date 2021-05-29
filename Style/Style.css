@@ -1,0 +1,54 @@
+    * {
+        text-align: center;
+    }
+    
+    input {
+        margin-bottom: 30px;
+    }
+    
+    .row1 {
+        margin: 20px auto;
+        width: 80%;
+    }
+    
+    .age-row {
+        margin: 0px auto;
+    }
+    
+    .age-span {
+        margin-right: 10%;
+        margin-left: 15%;
+    }
+    
+    .btn {
+        width: 100px;
+        padding: 5px;
+        margin: 10px;
+        border: 1px solid rgb(141, 141, 141);
+        background-color: rgb(236, 234, 234);
+    }
+    
+    #noData {
+        color: red;
+        font-size: 30px;
+    }
+    
+    #DisplayTable {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: 0 auto;
+        width: 60%;
+    }
+    
+    th {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+        background-color: rgb(241, 173, 219);
+    }
+    
+    td {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+    }
