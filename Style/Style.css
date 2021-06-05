@@ -4,20 +4,26 @@
     
     input {
         margin-bottom: 30px;
+        width: 20%;
     }
     
-    .row1 {
-        margin: 20px auto;
-        width: 80%;
+    input:invalid {
+        border: 1px solid red;
     }
     
-    .age-row {
-        margin: 0px auto;
+    input,
+    input:valid {
+        border-color: #ccc;
     }
     
-    .age-span {
-        margin-right: 10%;
-        margin-left: 15%;
+    #id {
+        margin-left: 10px;
+        margin-right: 50px;
+    }
+    
+    #email {
+        margin-left: 10px;
+        margin-right: 40px;
     }
     
     .btn {
@@ -28,12 +34,12 @@
         background-color: rgb(236, 234, 234);
     }
     
-    #noData {
+    #NotFound {
         color: red;
         font-size: 30px;
     }
     
-    #DisplayTable {
+    #DisplayInTable {
         border: 1px solid black;
         border-collapse: collapse;
         margin: 0 auto;
